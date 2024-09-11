@@ -1,0 +1,144 @@
+body{
+    background-color: #f1f2f6;
+}
+
+.navbar{
+    background-color:rgb(235, 235, 235);
+}
+.navbar-brand{
+    font-size: 30px;
+}
+#first{
+    margin-left: 400px;
+}
+.active::after{
+    content: '';
+    width: 30px;
+    background-color: #1abc9c;
+    display: block;
+    padding: 2px;
+    margin: 0px 0 3px 0px;
+    
+
+
+}
+.linkf:hover::after{
+    content: '';
+    width: 30px;
+    background-color: #1abc9c;
+    display: block;
+    padding: 2px;
+    margin: 0px 0 3px 400px;
+
+
+
+}
+.link:hover::after{
+    content: '';
+    width: 30px;
+    background-color: #1abc9c;
+    display: block;
+    padding: 2px;
+    margin: 0px 0 3px 10px;
+
+
+}
+nav i{
+    margin-left: 20px;
+}
+nav i:hover{
+    color:#1abc9c;
+}
+.contact h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+.contact h1::after{
+    content: '';
+    width: 60px;
+    background-color: #1abc9c;
+    display: block;
+    padding: 2px;
+    margin: 10px auto;
+
+}
+.center{
+    text-align: center;
+    margin-left: 170px;
+    margin-right: 170px;
+    color: gray;
+    margin-top: 30px;
+
+}
+.container iframe{
+    width: 100%;
+}
+.left i{
+    color: #1abc9c;
+    font-size: 30px;
+    background-color: #cee7e9;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+}
+.left i:hover{
+    background-color:#1abc9c ;
+    color: azure;
+}
+.clear{
+    clear: both;
+}
+form{
+    position: absolute;
+    top: -230px;
+    left: 190px;
+}
+.btn{
+    background-color:#1abc9c ;
+    color: azure;
+    border-radius: 30px;
+    margin-left: 280px;
+
+}
+footer{
+    clear: both;
+    text-align: center;
+    text-transform: capitalize;
+    background-color:rgb(235, 235, 235);
+    padding: 20px;
+    margin-bottom: 0;
+    margin-top: -120px;
+
+}
+.firstspan{
+    font-weight: bolder;
+}
+.secondspan{
+    color: #1abc9c;
+}
+#topBtn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1abc9c;
+    outline: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#topBtn i{
+    color: white;
+}
+

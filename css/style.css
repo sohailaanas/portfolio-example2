@@ -1,0 +1,112 @@
+body{
+    background-color:rgb(235, 235, 235) ;
+}
+.navbar{
+    background-color:rgb(235, 235, 235);
+    
+}
+.navbar-brand{
+    font-size: 30px;
+}
+#first{
+    margin-left: 400px;
+}
+
+.active::after{
+    content: '';
+    width: 30px;
+    background-color: #1abc9c;
+    display: block;
+    padding: 2px;
+    margin: 0px 0 3px 400px;
+
+
+}
+.link:hover::after{
+    content: '';
+    width: 30px;
+    background-color: #1abc9c;
+    display: block;
+    padding: 2px;
+    margin: 0px 0 3px 15px;
+
+
+}
+
+nav i{
+    margin-left: 20px;
+}
+nav i:hover{
+    color:#1abc9c;
+}
+
+/*head*/
+.head{
+    background-image: /*linear-gradient(rgb(219, 219, 209,.5),rgb(219, 219, 209,.5)),*/url(../images/hero-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.head h1{
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+    display: none;
+
+}
+.head p{
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    transform: translate(-50%,-50%);
+    color: gray;
+    font-size: 25px;
+    display: none;
+
+
+}
+.head button{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color:#1abc9c;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    width: 160px;
+    height: 50px;
+    border-radius: 40px;
+    display: none;
+
+
+
+}
+footer{
+    text-align: center;
+    text-transform: capitalize;
+}
+.firstspan{
+    font-weight: bolder;
+}
+.secondspan{
+    color: #1abc9c;
+}
+#topBtn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1abc9c;
+    outline: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+}

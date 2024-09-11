@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style5.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <style>
+        .container{
+            padding: 1em;
+            column-count: 3;
+        }
+        img{
+            width: 100%;
+            margin-bottom: 1em;
+        }
+        .text-content p{
+            color: gray;
+        }
+        .single-content{
+            position: relative;
+            transition: .3s;
+        }
+        .single-content .text-content,
+        .single-content::after
+        {
+            position: absolute;
+            left: 20px;
+            right: 20px;
+
+        }
+        .single-content::after{
+            content: "";
+            display: block;
+            background: rgba(0, 0, 0, .5);
+            top: 20px;
+            bottom: 20px;
+            opacity: 0;
+            transform: rotate3d(-1,1,0,100deg);
+            transition: .4s;
+        }
+        .single-content:hover::after{
+            opacity: .9;
+            transform: rotate3d(0,0,0,0deg);
+        }
+        .text-content{
+            bottom: 5%;
+            opacity: 0;
+            z-index: 1;
+            transform: translate(10%,-30%);
+            transition: .3s;
+            color: #fff;
+        }
+        .single-content:hover .text-content{
+            opacity: 1;
+            transform: translate(0,-50%);
+            transition-delay: .3s;
+        }
+
+    </style>
+    
+
+</head>
+<body>
+
+    <div class="container">
+        
+        <div  class="single-content">
+            <img src="images/portfolio-1.jpg" alt="">
+            <div class="text-content">
+                <h4>App 1</h4>
+                <p>APP</p>
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+            </div>
+
+        </div>
+        <div  class="single-content ">
+            <img src="images/portfolio-6.jpg" alt="">
+            <div class="text-content">
+                <h4>App 1</h4>
+                <p>APP</p>
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+            </div>
+
+        </div>
+        <div  class="single-content">
+            <img src="images/portfolio-2.jpg" alt="">
+            <div class="text-content">
+                <h4>App 1</h4>
+                <p>APP</p>
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+            </div>
+
+        </div>
+        <div  class="single-content ">
+            <img src="images/portfolio-5.jpg" alt="">
+            <div class="text-content">
+                <h4>App 1</h4>
+                <p>APP</p>
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+            </div>
+
+        </div>
+        <div  class="single-content">
+            <img src="images/portfolio-9.jpg" alt="">
+            <div class="text-content">
+                <h4>App 1</h4>
+                <p>APP</p>
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+            </div>
+
+        </div>
+        <div  class="single-content">
+            <img src="images/portfolio-3.jpg" alt="">
+            <div class="text-content">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+            </div>
+
+        </div>
+        <div  class="single-content">
+            <img src="images/portfolio-4.jpg" alt="">
+            <div class="text-content">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+            </div>
+
+        </div>
+        <div  class="single-content">
+            <img src="images/portfolio-7.jpg" alt="">
+            <div class="text-content">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+            </div>
+
+        </div>
+        <div class="single-content">
+            <img src="images/portfolio-8.jpg" alt="">
+            <div class="text-content">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-link"></i>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 
+    <section class=" d-flex container">
+
+<div class="div1 col-3 ">
+    <img src="images/portfolio-1.jpg" alt="" width="100%" height="100%">
+    <div class="overlay-text">
+        <h2>App 1</h2>
+        <p>APP</p>
+        <i class="fas fa-plus"></i>
+        <i class="fas fa-link"></i>
+    </div>
+
+    <img class=" mt-4" src="images/portfolio-6.jpg" alt="" width="100%" height="100%">
+
+</div>
+<div class="div2 col-3">
+    <img src="images/portfolio-2.jpg" alt=""width="100%" height="50%">
+    <img class=" mt-4" src="images/portfolio-5.jpg" alt=""width="100%" height="50%">
+    <img class=" mt-4" src="images/portfolio-9.jpg" alt=""width="100%" height="50%">
+
+
+
+</div>
+<div class="div3 col-3">
+    <img src="images/portfolio-3.jpg" alt=""width="100%" height="40%">
+    <img class=" mt-4" src="images/portfolio-4.jpg" alt=""width="100%" height="40%">
+    <img class=" mt-4" src="images/portfolio-7.jpg" alt=""width="100%" height="40%">
+    <img class=" mt-4" src="images/portfolio-8.jpg" alt=""width="100%" height="40%">
+
+
+
+</div>
+</section>
+ -->
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/plugins.js"></script>
+
+</body>
+</html>

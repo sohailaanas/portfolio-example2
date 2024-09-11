@@ -1,0 +1,239 @@
+.navbar{
+    background-color:rgb(235, 235, 235);
+}
+.navbar-brand{
+    font-size: 30px;
+}
+#first{
+    margin-left: 400px;
+}
+.active::after{
+    content: '';
+    width: 30px;
+    background-color: #1abc9c;
+    display: block;
+    padding: 2px;
+    margin: 0px 0 3px 0px;
+    
+
+
+}
+.linkf:hover::after{
+    content: '';
+    width: 30px;
+    background-color: #1abc9c;
+    display: block;
+    padding: 2px;
+    margin: 0px 0 3px 400px;
+}
+.link:hover::after{
+    content: '';
+    width: 30px;
+    background-color: #1abc9c;
+    display: block;
+    padding: 2px;
+    margin: 0px 0 3px 10px;
+
+
+}
+nav i{
+    margin-left: 20px;
+}
+nav i:hover{
+    color:#1abc9c;
+}
+
+.resume-start h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.resume-start h1::after{
+    content: '';
+    width: 60px;
+    background-color: #1abc9c;
+    display: block;
+    padding: 2px;
+    margin: 10px auto;
+
+}
+.resume-start p{
+    text-align: center;
+    margin-left: 170px;
+    margin-right: 170px;
+    color: gray;
+    margin-top: 30px;
+
+}
+.title h1{
+    color: grey;
+    margin-left: -28px;
+}
+.title h3{
+    color: #16a085;
+    text-transform: capitalize;
+
+}
+.resume-item {
+    color: grey;
+    margin-left: 60px;
+}
+.resume-item ul{
+    margin-left: -22px;
+}
+.resume-summary ul li::before{
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 44px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #16a085;
+}
+.resume-summary ul li::after {
+    content: "";
+    position: absolute;
+    top: 72px;
+    left: 50px;
+    width: 3px;
+    height: 200px;
+    background-color:#16a085 ;
+}
+.date{
+    width: 20%;
+    padding: 4px 0;
+    color:#00d2d3 ;
+    background-color: #dff9fb;
+    text-align: center;
+    font-weight: bold;
+}
+.resume-education ::before{
+    content: "";
+    position: absolute;
+    top: 360px;
+    left: 44px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #16a085;
+
+
+}
+
+.resume-education ::after{
+    content: "";
+    position: absolute;
+    top: 372px;
+    left: 50px;
+    width: 3px;
+    height: 200px;
+    background-color:#16a085 ;
+
+
+}
+#down::before{
+    content: "";
+    position: absolute;
+    top: 572px;
+    left: 44px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #16a085;
+}
+#down::after{
+    content: "";
+    position: absolute;
+    top: 584px;
+    left: 50px;
+    width: 3px;
+    height: 250px;
+    background-color:#16a085 ;
+
+
+}
+.resume-experiance::before{
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 44px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #16a085;
+
+
+}
+.resume-experiance::after{
+    content: "";
+    position: absolute;
+    top: 72px;
+    left: 50px;
+    width: 3px;
+    height: 370px;
+    background-color:#16a085 ;
+
+}
+.resume-graphic::before{
+    content: "";
+    position: absolute;
+    top: 440px;
+    left: 44px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #16a085;
+
+
+
+}
+.resume-graphic::after{
+    content: "";
+    position: absolute;
+    top: 452px;
+    left: 50px;
+    width: 3px;
+    height: 390px;
+    background-color:#16a085 ;
+
+
+}
+footer{
+    text-align: center;
+    text-transform: capitalize;
+    background-color:rgb(235, 235, 235);
+    padding: 20px;
+    margin-bottom: 0;
+    clear: both;
+
+}
+#footer{
+    margin-top: 100px;
+
+}
+.firstspan{
+    font-weight: bolder;
+}
+.secondspan{
+    color: #1abc9c;
+}
+#topBtn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #1abc9c;
+    outline: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+#topBtn i{
+    color: white;
+}
+
+
